@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.">
-    <title>Adi</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Web Navigasi Tanpa ul li</title>
 </head>
-
-<body>
-    <div class="header">
-
-
-        <h1>Website Belajar Coding Header</h1>
-        <h2>Web ini adalah website untuk belajar bersama coding Header
-            Sederhana</h2>
-        <img src="gambar/deltakaori.jpg">
-
-
-    </div>
-    <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="berita.html">Berita</a></li>
-        <li><a class="aktif" a href="kontak.html">Kontak</a></li>
-        <li><a href="tenteng.html">Tentang</a></li>
-        <li style="float: right;"><a href="login.html">Daftar</a></li>
-        <li style="float: right;"><a style="background-color: green;" href="login.html">Masuk</a></li>
-    </ul>
-</body>
-
+	<body>
+		<div class="header">
+			<h1>Website Belajar Navigasi tanpa ul li</h1>
+			<h2>Web ini adalah website untuk belajar bersama Navigasi dengan div saja</h2>
+			
+			<img src="gambar/deltakaori.jpg">
+		</div>
+		<div class="navigasi">
+		  <a href="index.html">Beranda</a>
+		  <div class="dropdown">
+		  	<button class="dropbtn">Jurusan</button>
+		  	<div class="dropdown-content">
+			  <a href="berita.html">Berita</a>
+			  <a href="kontak.html">Kontak</a>
+			  <a href="tentang.html">Tentang</a>
+		  	</div>
+		  </div>
+		  <a href="berita.html">Berita</a>
+		  <a href="kontak.html">Kontak</a>
+		  <a href="tentang.html">Tentang</a>
+		  <a style="background-color: green; float: right;" href="tentang.html">Masuk</a>
+		</div>
+	</body>
 </html>
