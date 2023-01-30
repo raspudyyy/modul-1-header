@@ -102,14 +102,10 @@ h2 {
   clear: both;
 }
 
-.kolomkiri {
+.kolomkiri{
   float: left;
-  width: 75%;
-}
-
-.kolomkiri h2, h5, h6 {
-  margin: 0px; 
-  margin-bottom: 10px;
+  width: 25%;
+  text-align: center;
 }
 
 .kartu {
@@ -118,34 +114,15 @@ h2 {
   background-color: white;
 }
 
-.kolomkanan{
+.kolomkanan {
   float: left;
-  width: 25%;
-  text-align: center;
+  width: 75%;
 }
 
-.navigasisamping {
-  display: block;
-  float: none;
-  overflow: hidden;
-  background-color: blue;
+.kolomkanan h2, h5, h6 {
+  margin: 0px; 
+  margin-bottom: 10px;
 }
-
-.navigasisamping a {
-  width: 100%;
-  float: left;
-  font-size: 16px;
-  color: white;
-  padding: 14px 0px;
-  text-decoration: none;
-  background-color: blue;
-}
-
-.navigasisamping a:hover, .dropdown:hover .dropbtn {
-  background-color: lightgrey;
-  color: black;
-}
-
 
 
 
