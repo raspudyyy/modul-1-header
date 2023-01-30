@@ -15,7 +15,7 @@ body{
 .header img{
 	width: 100%;
 	height: 200px;
-	object-fit: scale-down;
+	object-fit: cover;
 }
 
 h1 {
@@ -102,12 +102,12 @@ h2 {
   clear: both;
 }
 
-.kolom {
+.kolomkiri {
   float: left;
-  width: 33.3%;
+  width: 75%;
 }
 
-.kolom h2, h5, h6 {
+.kolomkiri h2, h5, h6 {
   margin: 0px; 
   margin-bottom: 10px;
 }
@@ -118,11 +118,16 @@ h2 {
   background-color: white;
 }
 
+.kolomkanan{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
 
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navigasi a, .navigasi .kanan, .dropdown {
     display: block;
     float: none;
@@ -138,7 +143,11 @@ h2 {
     position: relative;
   }
 
-  .kolom {
-    width: 90%;
+  .kolomkiri {
+    width: 100%;
+  }
+
+  .kolomkanan{
+    width: 100%;
   }
 }
