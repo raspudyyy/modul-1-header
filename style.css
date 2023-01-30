@@ -95,8 +95,14 @@ h2 {
   display: block;
 }
 
-.konten {
-  padding: 20px;
+.kolom {
+  float: left;
+  width: 33%;
+}
+
+.kolom h2, h5, h6 {
+  margin: 0px; 
+  margin-bottom: 10px;
 }
 
 
