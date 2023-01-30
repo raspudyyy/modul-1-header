@@ -124,6 +124,28 @@ h2 {
   text-align: center;
 }
 
+.navigasisamping {
+  display: block;
+  float: none;
+  overflow: hidden;
+  background-color: blue;
+}
+
+.navigasisamping a {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 0px;
+  text-decoration: none;
+  background-color: blue;
+}
+
+.navigasisamping a:hover, .dropdown:hover .dropbtn {
+  background-color: lightgrey;
+  color: black;
+}
+
 
 
 
@@ -147,7 +169,7 @@ h2 {
     width: 100%;
   }
 
-  .kolomkanan{
+  .kolomkanan {
     width: 100%;
   }
 }
