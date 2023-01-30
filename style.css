@@ -95,42 +95,16 @@ h2 {
   display: block;
 }
 
-.navigasi .caribtn {
-  float: left; 
-  text-align: center;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: brown;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navigasi .cariinput {
-  float: left;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 10px 16px;
-  background-color: white;
-  font-family: inherit;
-  margin: 4px 10px;
-}
-
-.navigasi .caribtn:hover {
-  background-color: sandybrown;
+.konten {
+  padding: 20px;
 }
 
 
-@media screen and (max-width: 850px) {
+
+@media screen and (max-width: 600px) {
   .navigasi a, .navigasi .kanan, .dropdown {
-    width: 100%;
     display: block;
     float: none;
-    overflow: hidden;
   }
 
   .dropdown .dropbtn{
@@ -142,22 +116,4 @@ h2 {
     float: none;
     position: relative;
   }
-
-  .navigasi .cariinput{
-    display: block;
-    float: left;
-    overflow: hidden;
-    width: 65%;
-    margin: 0px;
-  }
-
-  .navigasi .caribtn{
-    display: inline;
-    float: right;
-    overflow: hidden;
-    width: 25%;
-    padding: 10px 16px; 
-    margin: 0px;
-  }
-
 }
