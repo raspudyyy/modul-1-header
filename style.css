@@ -102,21 +102,26 @@ h2 {
   clear: both;
 }
 
-.kolomkiri{
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-
 .kartu {
   margin: 10px;
   padding: 20px;
   background-color: white;
 }
 
+.kolomkiri{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.kolomtengah{
+  float: left;
+  width: 50%;
+}
+
 .kolomkanan {
   float: left;
-  width: 75%;
+  width: 25%;
 }
 
 .kolomkanan h2, h5, h6 {
@@ -149,7 +154,7 @@ h2 {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .navigasi a, .navigasi .kanan, .dropdown {
     display: block;
     float: none;
@@ -166,6 +171,10 @@ h2 {
   }
 
   .kolomkiri {
+    width: 100%;
+  }
+
+  .kolomtengah {
     width: 100%;
   }
 
